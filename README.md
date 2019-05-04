@@ -6,16 +6,31 @@ Create a "Bot" using Node.Js named LIRI (Language Interpretation and Recognition
 
 ## Features
 - Sends request using AXIOS package
-- Utilizes Bands in Town, Spotify, and OMDB APIs.
-- Uses moment to properly display times.
-- *"Do What it Says"* Command which selects a command for you.
+- Utilizes Bands In Town, Spotify, and OMDB APIs to provide user with relevant information on their favorite music and movies
+- Logs commands into a log file
 
-## Bonus Features
-- Output command results to a log.txt file *(Appending)*
-- LIRI can output results based on simple algorithms found in technical interviews.
+### Spotify This
+![Screenshot for Spotify Command](./screenshots/spotify-this-song.PNG "Spotify-This-Song command in action")
+- Lookup your favorite songs through LIRI
+- Gives track info, artist, and a link right to Spotify
 
-### Algorithms
-- Reverse String
-- Remove Duplicates *(Need to determine whether user can input array or provide array for them)*
-- Is it a Palindrome?
-- Anagrams
+### Movie-This
+![Screenshot for Movie Command](./screenshots/movie-this.PNG "Movie-This command in action")
+- Find your favorite movies - LIRI knows them all!
+- 
+
+### Concert-This
+![Screenshot for Movie Command](./screenshots/concert-this.PNG "Concert-This command in action")
+- Curious where your favorite artists are playing? Use the "Concert-This" command to see where their performing next!
+- Uses moment to properly display event dates.
+
+### Do-What-It-Says
+![Screenshot for Movie Command](./screenshots/do-what-it-says.PNG "Do-What-It-Says command in action")
+- *"Do What it Says":* LIRI can even take commands straight from text files!
+
+## Bonus Feature!
+- LIRI can do a few tricks from sorting numbers and reversing text!
+![Screenshot for Movie Command](./screenshots/algo-reverse.PNG "Reverse String command in action")
+- Reverse String (Command: Reverse)
+![Screenshot for Movie Command](./screenshots/algo-reverse.PNG "Sort Numbers command in action")
+- Sort (Command: Sort)
