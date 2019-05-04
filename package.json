@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/CalebRose/assignmentEight/issues"
   },
-  "homepage": "https://github.com/CalebRose/assignmentEight#readme"
+  "homepage": "https://github.com/CalebRose/assignmentEight#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.1.1"
+  }
 }
