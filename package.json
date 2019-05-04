@@ -1,0 +1,20 @@
+{
+  "name": "assignmentEight",
+  "version": "1.0.0",
+  "description": "First Node.Js assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalebRose/assignmentEight.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CalebRose/assignmentEight/issues"
+  },
+  "homepage": "https://github.com/CalebRose/assignmentEight#readme"
+}
