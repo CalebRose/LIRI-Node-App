@@ -1,14 +1,11 @@
-console.log('this is loaded');
+console.log('Querying request...');
 
-exports.spotify = {
-    id: process.env.SPOTIFY_ID,
-    secret: process.env.SPOTIFY_SECRET
+exports.key = {
+    spotify: {
+        id: process.env.SPOTIFY_ID,
+        secret: process.env.SPOTIFY_SECRET
+    },
+    omdb: process.env.OMDB_ID,
+    bands: process.env.BAND_ID
+
 };
-
-exports.bands = {
-    //
-}
-
-exports.omdb = {
-    //
-}
