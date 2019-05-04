@@ -1,8 +1,8 @@
-# assignmentEight
+# assignmentEight - LIRI
 First Node.Js assignment
 
 ## Concept
-Create a "Bot" using Node.Js named LIRI (Language Interpretation and Recognition Interface). LIRI is a command line node app that takes in parameters and gives back data.
+Create a "Bot" using Node.Js named LIRI (Language Interpretation and Recognition Interface). LIRI is a command line node app that takes in parameters and gives back data
 
 ## Features
 - Sends request using AXIOS package
@@ -17,12 +17,12 @@ Create a "Bot" using Node.Js named LIRI (Language Interpretation and Recognition
 ### Movie-This
 ![Screenshot for Movie Command](./screenshots/movie-this.PNG "Movie-This command in action")
 - Find your favorite movies - LIRI knows them all!
-- 
+- Grab everything from movie ratings, plots, and actors for every movie
 
 ### Concert-This
 ![Screenshot for Movie Command](./screenshots/concert-this.PNG "Concert-This command in action")
 - Curious where your favorite artists are playing? Use the "Concert-This" command to see where their performing next!
-- Uses moment to properly display event dates.
+- Uses Moment node package to properly display concert show times
 
 ### Do-What-It-Says
 ![Screenshot for Movie Command](./screenshots/do-what-it-says.PNG "Do-What-It-Says command in action")
@@ -30,7 +30,9 @@ Create a "Bot" using Node.Js named LIRI (Language Interpretation and Recognition
 
 ## Bonus Feature!
 - LIRI can do a few tricks from sorting numbers and reversing text!
+
 ![Screenshot for Movie Command](./screenshots/algo-reverse.PNG "Reverse String command in action")
 - Reverse String (Command: Reverse)
+
 ![Screenshot for Movie Command](./screenshots/algo-reverse.PNG "Sort Numbers command in action")
 - Sort (Command: Sort)
